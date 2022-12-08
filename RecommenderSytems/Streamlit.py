@@ -124,7 +124,7 @@ def recom_rest(user_id, n):
 ## STREAMLIT APP INPUTS ==>
 st.title('Welcome at WBSFLIX!')
 
-image = Image.open('movie_night.jpeg')
+image = Image.open('./movie_night.jpeg')
 st.image(image)
 
 

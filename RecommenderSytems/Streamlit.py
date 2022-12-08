@@ -5,8 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
 
 
-ratings_df = pd.read_csv("../Dataframes/ratings.csv")
-movies_df = pd.read_csv("../Dataframes/movies.csv")
+ratings_df = pd.read_csv("./../Dataframes/ratings.csv")
+movies_df = pd.read_csv("./../Dataframes/movies.csv")
 
 # CREATE A DF WITH TITLES AND RATINGS:
 

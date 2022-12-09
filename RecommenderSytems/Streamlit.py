@@ -118,8 +118,8 @@ def recom_rest(user_id, n):
 ## STREAMLIT APP INPUTS ==>
 st.title('Welcome at WBSFLIX!')
 
-#image = Image.open('Bootcamp_Projects/RecommenderSytems/movie_night.jpeg')
-#st.image(image)
+image = Image.open(r'movie_night.jpeg')
+st.image(image)
 
 
 st.header('Most Popular Movies')
